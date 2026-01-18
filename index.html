@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Travel Planner</title>
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header>
+  <nav>
+    <div class="logo">TravelPlanner</div>
+    <div class="nav-links">
+      <a href="#">Explore</a>
+      <a href="#">Offers</a>
+      <button>Book Now</button>
+    </div>
+  </nav>
+</header>
+
+<div class="offer-bar">
+  🌍 Flat 20% OFF on International Trips — Use Code <b>TRAVEL20</b>
+</div>
+
+<section class="hero">
+  <div class="search-card">
+
+    <div class="tabs">
+  <span class="tab active" data-type="flights">Flights</span>
+  <span class="tab" data-type="hotels">Hotels</span>
+  <span class="tab" data-type="holidays">Holidays</span>
+</div>
+
+
+    <div class="inputs">
+  <input id="from" placeholder="From">
+  <input id="to" placeholder="To">
+  <input id="startDate" type="date">
+  <input id="endDate" type="date">
+</div>
+
+
+    <button class="search-btn" id="searchBtn">Search</button>
+    <!-- Weather Result Box -->
+<div id="weatherBox" class="weather-box"></div>
+
+
+  </div>
+</section>
+
+<section class="categories">
+  <div class="category">
+    <img src="https://cdn-icons-png.flaticon.com/512/201/201623.png">
+    <h4>Beaches</h4>
+  </div>
+  <div class="category">
+    <img src="https://cdn-icons-png.flaticon.com/512/3176/3176297.png">
+    <h4>Mountains</h4>
+  </div>
+  <div class="category">
+    <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png">
+    <h4>Cities</h4>
+  </div>
+  <div class="category">
+    <img src="https://cdn-icons-png.flaticon.com/512/854/854878.png">
+    <h4>Adventure</h4>
+  </div>
+</section>
+
+<h2 class="section-title">🔥 Exclusive Deals</h2>
+
+<section class="deals">
+  <div class="deal-card">
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e">
+    <div class="deal-content">
+      <h4>Maldives Getaway</h4>
+      <p class="price">₹42,999</p>
+      <p>Flights + Hotel</p>
+    </div>
+  </div>
+
+  <div class="deal-card">
+    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470">
+    <div class="deal-content">
+      <h4>Himachal Escape</h4>
+      <p class="price">₹28,999</p>
+      <p>5 Nights Package</p>
+    </div>
+  </div>
+
+  <div class="deal-card">
+    <img src="https://images.unsplash.com/photo-1505761671935-60b3a7427bad">
+    <div class="deal-content">
+      <h4>Paris Tour</h4>
+      <p class="price">₹54,999</p>
+      <p>City + Museum Pass</p>
+    </div>
+  </div>
+</section>
+
+<h2 class="section-title">🗺️ Plan Your Trip</h2>
+
+<section class="trip-planner">
+  <div class="trip-card">
+    <input type="text" id="tripDestination" placeholder="Destination (e.g. Goa)">
+    
+    <input type="date" id="tripStart">
+    <input type="date" id="tripEnd">
+
+    <textarea id="tripNotes" placeholder="Notes (Places to visit, food, budget...)"></textarea>
+
+    <button id="addTripBtn">Add Trip</button>
+  </div>
+
+  <div class="trip-list" id="tripList">
+    <h3>Your Planned Trips</h3>
+  </div>
+</section>
+
+
+<footer>
+  <div class="footer-top">
+    <div>
+      <h4>About Us</h4>
+      <p>Company Info</p>
+      <p>Careers</p>
+      <p>Press</p>
+    </div>
+
+    <div>
+      <h4>Explore</h4>
+      <p>Flights</p>
+      <p>Hotels</p>
+      <p>Holiday Packages</p>
+    </div>
+
+    <div>
+      <h4>Support</h4>
+      <p>Help Center</p>
+      <p>Cancellation</p>
+      <p>Terms & Privacy</p>
+    </div>
+
+    <div class="footer-newsletter">
+      <h4>Newsletter</h4>
+      <input type="email" placeholder="Your email">
+      <button>Subscribe</button>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    ©️ 2026 TravelPlanner — All Rights Reserved
+  </div>
+</footer>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
